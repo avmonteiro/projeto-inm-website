@@ -6,6 +6,6 @@ Projeto de testes BDD, utilizando framework:
 
 Para execução do projeto necessário instalar as Gems, links de referências:
 
-https://cucumber.io/
-https://github.com/cucumber/cucumber/wiki/Install
-https://github.com/natritmeyer/site_prism
+https://cucumber.io/,
+https://github.com/cucumber/cucumber/wiki/Install,
+https://github.com/natritmeyer/site_prism,

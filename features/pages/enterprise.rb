@@ -8,7 +8,6 @@ class Enterprise < SitePrism::Page
   element :username, "input[name='txtUsername']"
   element :password, "input[name='txtPassword']"
   element :btn_login, 'input#btnLogin'
-	
 
   section :menu, MenuSection, ".menu"
   section :discipline, DisciplineSection, "#content"

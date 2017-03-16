@@ -1,7 +1,7 @@
 #encoding: utf-8
 #! ~/.rvm/gems/ruby-2.3.3/bin ruby
 
-Given(/^homepage da Inmetrics$/) do
+Given(/^home page da Inmetrics$/) do
 	@home = Home.new
  	@home.load
 end

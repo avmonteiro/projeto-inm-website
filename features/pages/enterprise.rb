@@ -8,14 +8,15 @@ class Enterprise < SitePrism::Page
 	element :username, "input[name='txtUsername']"
 	element :password, "input[name='txtPassword']"
 	element :btn_login, 'input#btnLogin'
+	
 
 	section :menu, MenuSection, ".menu"
 	section :discipline, DisciplineSection, "#content"
-
+	
 	def login_with(_username, _password)
 		self.username.set _username
 		self.password.set _password
 		btn_login.click
 	end
-
+	
 end

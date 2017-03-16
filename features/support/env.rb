@@ -14,4 +14,4 @@ end
 
 
 Capybara.default_driver = :untrusted_selenium
-Capybara.default_max_wait_time = 1
+Capybara.default_max_wait_time = 5

@@ -8,4 +8,5 @@ class Home < SitePrism::Page
 	def acess_quem_somos
 		link_quem_somos.click
 	end
+	
 end

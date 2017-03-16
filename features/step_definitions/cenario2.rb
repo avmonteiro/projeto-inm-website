@@ -2,16 +2,16 @@
 #! ~/.rvm/gems/ruby-2.3.3/bin ruby
 
 Given(/^enterprise homepage$/) do
-	@enterprise = Enterprise.new
-	@enterprise.load
+  @enterprise = Enterprise.new
+  @enterprise.load
 end
 
 Given(/^efetuar login com "([^"]*)" e "([^"]*)"$/) do |user, pwd|
- 	@enterprise.login_with(user, pwd)
+  @enterprise.login_with(user, pwd)
 end
 
 When(/^usuário clicar no link Discipline do menu$/) do
-	@enterprise.menu.discipline_menu.click
+  @enterprise.menu.discipline_menu.click
 end
 
 When(/^clicar no botão ADD para adicionar uma nota$/) do

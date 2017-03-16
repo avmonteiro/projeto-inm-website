@@ -1,5 +1,3 @@
-
-
 Feature: Acessar menu Quem Somos
 
   Scenario: Usuário acessa menu Quem Somos
